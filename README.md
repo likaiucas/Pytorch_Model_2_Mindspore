@@ -5,9 +5,9 @@
 
 # some common relation:
      mindspore.ckpt <-> torch.pth
-convolution: weight <-> weight
-batchnorm:   beta   <-> weight
-             gamma  <-> bias
-             moving_mean <-> running_mean
-             moving_variance <-> running_var
-             None <-> num_batches_tracked
+     convolution: weight <-> weight
+     batchnorm:   beta   <-> weight
+                  gamma  <-> bias
+                  moving_mean <-> running_mean
+                  moving_variance <-> running_var
+                  None <-> num_batches_tracked
